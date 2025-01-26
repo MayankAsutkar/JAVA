@@ -44,6 +44,30 @@ public class vid46 {
          * 
          * parameterized constructor;
          * constructor which takes parameter.
+         * 
+         * ><>< vid48:NAMING CONVENTION IN JAVA ><><
+         * there are two types:
+         * 
+         * 1>Camel casing:
+         * 
+         * ->for class we use first letter of class name as capital letter ex:(also for interface)
+         * class Human
+         * {
+         * 
+         * }
+         * ->for variables and methdos of class we use 1 st letter small:
+         * ex:name ,age ,getAge() 
+         * 
+         * ->constructor ex: Human();
+         * 
+         * -> constant : we use all letters as capital.ex: PIE ,BRAND
+         * 
+         * ->we differentiaite words by using uppercase before every new word:
+         * ex: getName(),setName()
+         * 
+         * snake casing rule:
+         * ->we differentiaite words by using underscore(_) before every new word:
+         * ex: get_name(),set_name()
          */
         human obj = new human();
         human obj1 = new human(32,"johny");
